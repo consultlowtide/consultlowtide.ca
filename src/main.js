@@ -3,6 +3,7 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import VueScrollTo from 'vue-scrollto'
+import VueFuse from 'vue-fuse'
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
@@ -13,6 +14,8 @@ export default function (Vue, { router, head, isClient }) {
     easing: "ease",
   })
 
+  Vue.use(VueFuse)
+
   head.meta.push({
     name: 'keywords',
     content: 'Gridsome,Vue,Tailwind,Tailwind CSS,JavaScript,HTML,CSS,Vue.js,VueJS'
@@ -20,12 +23,12 @@ export default function (Vue, { router, head, isClient }) {
 
   head.meta.push({
     name: 'description',
-    content: 'Gridsome Portfolio Starter'
+    content: 'Low Tide Consulting'
   })
 
   head.meta.push({
     name: 'author',
-    content: 'Andre Madarang'
+    content: 'Martin Laws'
   })
 
   head.link.push({

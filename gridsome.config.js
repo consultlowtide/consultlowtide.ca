@@ -14,8 +14,65 @@ const postcssPlugins = [
 if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 
 module.exports = {
-  siteName: 'Gridsome Portfolio Starter',
-  plugins: [],
+  siteName: 'Martin Laws - Low Tide Consulting',
+  siteDescription: 'Modern JavaScript Development, Design Thinking, Technology Coaching, and Consulting',
+  siteUrl: 'https://consultlowtide.github.io',
+  plugins: [
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'blog/**/*.md',
+        typeName: 'Post',
+        refs: {
+          tags: {
+            typeName: 'Tag',
+            route: 'tag/:id',
+            create: true
+          }
+        },
+        remark: {
+          plugins: [
+            [ 'gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true } ]
+          ]
+        }
+      }
+    },
+    {
+      use: 'gridsome-plugin-rss',
+      options: {
+        contentTypeName: 'Post',
+        feedOptions: {
+          title: 'Gridsome Portfolio Starter Blog',
+          feed_url: 'https://consultlowtide.github.io/rss.xml',
+          site_url: 'https://consultlowtide.github.io/'
+        },
+        feedItemOptions: node => ({
+          title: node.title,
+          description: node.summary,
+          url: 'https://consultlowtide.github.io' + node.path,
+          author: 'Martin Laws',
+          date: node.date
+        }),
+        output: {
+          dir: './static',
+          name: 'rss.xml'
+        }
+      }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        cacheTime: 600000, // default
+      }
+    },
+  ],
+  transformers: {
+    remark: {
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+      anchorClassName: 'icon icon-link',
+    }
+  },
   css: {
     loaderOptions: {
       postcss: {
