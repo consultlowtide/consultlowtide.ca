@@ -14,7 +14,7 @@ const postcssPlugins = [
 if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 
 module.exports = {
-  siteName: 'Martin Laws - Low Tide Consulting',
+  siteName: 'Low Tide Consulting',
   siteDescription: 'Modern JavaScript Development, Design Thinking, Technology Coaching, and Consulting',
   siteUrl: 'https://consultlowtide.ca',
   plugins: [

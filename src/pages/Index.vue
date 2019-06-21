@@ -111,7 +111,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Home'
+    title: 'Martin Laws'
   }
 }
 </script>
