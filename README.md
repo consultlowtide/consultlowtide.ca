@@ -1,11 +1,7 @@
-# Gridsome Portfolio Starter
+# Low Tide Consulting
+![screenshot](blog/images/site-screenshot.png)
 
-A simple portfolio starter theme for Gridsome
-
-![screenshot](https://user-images.githubusercontent.com/4316355/55691365-a2403380-596b-11e9-93be-05b846ec7760.jpg)
-
-## Demo URL
-
+Built with the help of great open-source software like:
 [https://gridsome-portfolio-starter.netlify.com](https://gridsome-portfolio-starter.netlify.com)
 
 ## Features
