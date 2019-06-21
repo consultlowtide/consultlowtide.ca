@@ -29,7 +29,7 @@
       <div class="about container-inner mx-auto text-xl border-gray-500 py-16 mb-16 relative">
         <h2 class="font-bold mb-6" id="about">Low Tide Consulting is built around:</h2>
 
-        <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
+        <div class="absolute right-0 top-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
         </div>
 
@@ -57,7 +57,7 @@
       </div> <!-- end projects -->
     </div>
 
-    <div class="contact-me bg-background-tertiary pt-16">
+    <div class="contact-me overflow-x-hidden bg-background-tertiary pt-16">
       <div class="container-inner mx-auto text-xl pb-4 relative">
         <h2 class="font-bold mb-6" id="contact">Let's talk:</h2>
 
