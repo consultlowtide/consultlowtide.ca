@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 module.exports = {
   siteName: 'Martin Laws - Low Tide Consulting',
   siteDescription: 'Modern JavaScript Development, Design Thinking, Technology Coaching, and Consulting',
-  siteUrl: 'https://consultlowtide.github.io',
+  siteUrl: 'https://consultlowtide.ca',
   plugins: [
     {
       use: '@gridsome/source-filesystem',
@@ -43,13 +43,13 @@ module.exports = {
         contentTypeName: 'Post',
         feedOptions: {
           title: 'Gridsome Portfolio Starter Blog',
-          feed_url: 'https://consultlowtide.github.io/rss.xml',
-          site_url: 'https://consultlowtide.github.io/'
+          feed_url: 'https://consultlowtide.ca/rss.xml',
+          site_url: 'https://consultlowtide.ca/'
         },
         feedItemOptions: node => ({
           title: node.title,
           description: node.summary,
-          url: 'https://consultlowtide.github.io' + node.path,
+          url: 'https://consultlowtide.ca' + node.path,
           author: 'Martin Laws',
           date: node.date
         }),
