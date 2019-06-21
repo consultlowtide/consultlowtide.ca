@@ -56,7 +56,7 @@
             <a href="sitemap.xml" class="text-white hover:text-gray-400 font-normal">Sitemap</a>
           </div>
         </div>
-        <div>Made with ♥ using Gridsome, Vue, FormSpree, and GitHub Pages.</div>
+        <div class="mb-8 lg:mb-0">Made with ♥ using Gridsome, Vue, FormSpree, and GitHub Pages.</div>
         <ul class="flex items-center">
           <li class="mr-8">
             <a href="mailto:martin@consultlowtide.ca" class="text-white hover:text-gray-400">
