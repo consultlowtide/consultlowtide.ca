@@ -14,18 +14,18 @@
             </div>
           </g-link>
         </div>
-        <div class="block lg:hidden">
+        <div class="block md:hidden">
           <button @click="toggle" class="flex items-center px-3 py-2 border rounded border-gray-500 hover:text-gray-600 hover:border-gray-600">
             <svg class="current-color h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" fill="gray" /></svg>
           </button>
         </div>
         <ul
-          class="uppercase tracking-wide font-bold w-full block flex-grow lg:flex lg:flex-initial lg:w-auto items-center mt-8 lg:mt-0"
+          class="uppercase tracking-wide font-bold w-full block flex-grow md:flex md:flex-initial md:w-auto items-center mt-8 md:mt-0"
           :class="isOpen ? 'block': 'hidden'"
         >
-          <!-- <li class="mr-8 mb-6 lg:mb-0">
+          <li class="mr-8 mb-6 lg:mb-0">
             <search-input />
-          </li> -->
+          </li>
           <li class="mr-8 mb-6 lg:mb-0">
             <theme-switcher :theme="theme" @themeChanged="updateTheme" />
           </li>
@@ -37,9 +37,9 @@
             <a v-if="$route.path === '/'" href="/#contact" v-scroll-to="'#contact'" class="text-copy-primary hover:text-gray-600">Contact</a>
             <g-link v-else to="/#contact" class="text-copy-primary hover:text-gray-600">Contact</g-link>
           </li>
-          <!-- <li>
+          <li>
             <g-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</g-link>
-          </li> -->
+          </li>
         </ul>
       </nav>
     </header>
@@ -56,7 +56,7 @@
             <a href="sitemap.xml" class="text-white hover:text-gray-400 font-normal">Sitemap</a>
           </div>
         </div>
-        <div class="mb-8 lg:mb-0">Made with ♥ using Gridsome, Vue, FormSpree, and GitHub Pages.</div>
+        <div class="mb-8 lg:mb-0">Made with ♥ using <a href="https://gridsome.org/" target="_blank" class="text-white hover:text-gray-400">Gridsome</a>, <a href="https://vuejs.org" target="_blank" class="text-white hover:text-gray-400">Vue</a>, and <a href="https://pages.github.com/" target="_blank" class="text-white hover:text-gray-400">GitHub Pages</a>.</div>
         <ul class="flex items-center">
           <li class="mr-8">
             <a href="mailto:martin@consultlowtide.ca" class="text-white hover:text-gray-400">
