@@ -65,6 +65,12 @@ module.exports = {
         cacheTime: 600000, // default
       }
     },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-142544893-1'
+      }
+    }
   ],
   transformers: {
     remark: {
