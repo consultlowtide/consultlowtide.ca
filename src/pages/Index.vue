@@ -59,23 +59,23 @@
 
     <div class="contact-me bg-background-tertiary pt-16">
       <div class="container-inner mx-auto text-xl pb-4 relative">
-        <h2 class="font-bold mb-6" id="contact">Contact me:</h2>
+        <h2 class="font-bold mb-6" id="contact">Let's talk:</h2>
 
         <div class="absolute right-0 top-0" style="transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
         </div>
 
-        <p class="mb-12">Static sites cannot submit forms on their own. However, services like <a href="https://www.netlify.com/docs/form-handling">Netlify Forms</a> or <a href="https://formspree.io">FormSpree</a> can help you do this without a backend.</p>
+        <p class="mb-12">I'd love to discuss how we can knock your next project out of the park. You can reach me via the form below, on <a href="https://www.linkedin.com/in/martinlaws/">LinkedIn</a> or at <a href="mailto:martin@consultlowtide.ca">martin@consultlowtide.ca</a>. Messages regarding great food, craft beer, or stand-up comedy are welcomed.</p>
 
         <div class="text-lg sm:text-lg mb-16">
-          <form action="#" class="mb-12">
+          <form action="https://formspree.io/martin@consultlowtide.ca" method="POST" class="mb-12">
             <div class="flex flex-wrap mb-6 -mx-4">
                 <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
                     <label class="block mb-2 text-copy-primary" for="name">
                         Name
                     </label>
 
-                    <input type="text" name="name" id="name" placeholder="Jon Snow" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-brand-primary mb-2 p-4" required>
+                    <input type="text" name="name" id="name" placeholder="Tyrion Lannister" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-brand-primary mb-2 p-4" required>
                 </div>
 
                 <div class="w-full px-4 md:w-1/2">
@@ -83,7 +83,7 @@
                         Email Address
                     </label>
 
-                    <input type="email" name="email" id="email" placeholder="email@example.com"  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-brand-primary mb-2 p-4" required>
+                    <input type="email" name="email" id="email" placeholder="example@westeros.gov"  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-brand-primary mb-2 p-4" required>
                 </div>
             </div>
 
