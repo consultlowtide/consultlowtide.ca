@@ -1,12 +1,10 @@
 {
-  "name": "martinlaws",
+  "name": "consultlowtide.ca",
   "private": true,
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d dist"
+    "explore": "gridsome explore"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",
@@ -15,7 +13,6 @@
     "@gridsome/source-filesystem": "^0.5.0",
     "@gridsome/transformer-remark": "^0.3.2",
     "axios": "^0.19.0",
-    "gh-pages": "^2.0.1",
     "gridsome": "^0.6.4",
     "gridsome-plugin-remark-shiki": "^0.3.0",
     "gridsome-plugin-rss": "^1.1.0",
