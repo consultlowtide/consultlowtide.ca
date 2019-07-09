@@ -50,7 +50,7 @@
           </li>
           <li class="checkmark mb-6">
             <div>Collaborating with Incredible Clients</div>
-            <div class="text-lg text-gray-600">Great product development is a partnership. I've been incredibly fortunate to work with some of Canada's most reputable companies. Working with teams of two to over 200, I've lectured for hundreds of students at <a href="https://www.lighthouselabs.ca/">Lighthouse Labs</a>, built new products for one of Canada's largest publishers, levelled up development teams at established enterprise giants, and helped startups spin up their first prototypes. I take your trust seriously, and will always tell it as I see it.</div>
+            <div class="text-lg text-gray-600">Great product development is a partnership. I've been incredibly fortunate to work with some of Canada's most reputable companies, with teams ranging in size from two to over 200. I've helped to build new products for <a href="https://www.theglobeandmail.com/" target="_blank">The Globe and Mail</a> (one of Canada's largest publishers), lectured for hundreds of students at <a href="https://www.lighthouselabs.ca/" target="_blank">Lighthouse Labs</a>, levelled up development teams at established enterprise giants, and helped startups spin up their first prototypes. I take your trust seriously, and will always tell it as I see it.</div>
           </li>
 
         </ul>
