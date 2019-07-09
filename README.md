@@ -1,4 +1,6 @@
 # Low Tide Consulting
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c83f227e-2640-4064-8446-29787e896d6d/deploy-status)](https://app.netlify.com/sites/consultlowtide/deploys)
+
 ![screenshot](blog/images/site-screenshot.png)
 
 Built with the help of great open-source software like:
