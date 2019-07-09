@@ -68,7 +68,7 @@
         <p class="mb-12">I'd love to discuss how we can knock your next project out of the park. You can reach me via the form below, on <a href="https://www.linkedin.com/in/martinlaws/">LinkedIn</a> or at <a href="mailto:martin@consultlowtide.ca">martin@consultlowtide.ca</a>. Messages regarding great food, craft beer, or stand-up comedy are welcomed.</p>
 
         <div class="text-lg sm:text-lg mb-16">
-          <form method="POST" class="mb-12" netlify>
+          <form name="contact" method="POST" class="mb-12" netlify>
             <div class="flex flex-wrap mb-6 -mx-4">
                 <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
                     <label class="block mb-2 text-copy-primary" for="name">
