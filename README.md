@@ -33,3 +33,6 @@ Built with the help of great open-source software like:
 
  - Illustrations from [unDraw](https://undraw.co)
  - Search is based on [Fuse.js](https://fusejs.io) and [vue-fuse](https://github.com/shayneo/vue-fuse). It only searches the title and summary of posts for now. Some tweaking may be necessary to get it to search to your liking. Check out the fuse documentation for search settings. A `search.json` index file is generated at build time. This happens in `gridsome.server.js`.
+
+## Creative Commons License
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Low Tide Consulting Corporate Site</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="consultlowtide.ca" property="cc:attributionName" rel="cc:attributionURL">Martin Laws</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/consultlowtide/consultlowtide.ca" rel="dct:source">https://github.com/consultlowtide/consultlowtide.ca</a>.
