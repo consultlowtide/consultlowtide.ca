@@ -56,7 +56,7 @@
             <a href="sitemap.xml" class="text-white hover:text-gray-400 font-normal">Sitemap</a>
           </div>
         </div>
-        <div class="mb-8 lg:mb-0">Made with ♥ using <a href="https://gridsome.org/" target="_blank" class="text-white hover:text-gray-400">Gridsome</a>, <a href="https://vuejs.org" target="_blank" class="text-white hover:text-gray-400">Vue</a>, and <a href="https://pages.github.com/" target="_blank" class="text-white hover:text-gray-400">GitHub Pages</a>.</div>
+        <div class="mb-8 lg:mb-0">Made with ♥ using <a href="https://gridsome.org/" target="_blank" class="text-white hover:text-gray-400">Gridsome</a>, <a href="https://vuejs.org" target="_blank" class="text-white hover:text-gray-400">Vue</a>, and <a href="https://www.netlify.com/" target="_blank" class="text-white hover:text-gray-400">Netlify</a>.</div>
         <ul class="flex items-center">
           <li class="mr-8">
             <a href="mailto:martin@consultlowtide.ca" class="text-white hover:text-gray-400">
