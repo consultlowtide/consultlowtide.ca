@@ -27,9 +27,6 @@
             <search-input />
           </li>
           <li class="mr-8 mb-6 lg:mb-0">
-            <theme-switcher :theme="theme" @themeChanged="updateTheme" />
-          </li>
-          <li class="mr-8 mb-6 lg:mb-0">
             <a v-if="$route.path === '/'" href="/#home" v-scroll-to="'#home'" class="text-copy-primary hover:text-gray-600">Home</a>
             <g-link v-else to="/#home" class="text-copy-primary hover:text-gray-600">Home</g-link>
           </li>
@@ -37,8 +34,11 @@
             <a v-if="$route.path === '/'" href="/#contact" v-scroll-to="'#contact'" class="text-copy-primary hover:text-gray-600">Contact</a>
             <g-link v-else to="/#contact" class="text-copy-primary hover:text-gray-600">Contact</g-link>
           </li>
-          <li>
+          <li class="mr-8 mb-6 lg:mb-0">
             <g-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</g-link>
+          </li>
+          <li>
+            <theme-switcher :theme="theme" @themeChanged="updateTheme" />
           </li>
         </ul>
       </nav>
