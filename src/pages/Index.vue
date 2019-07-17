@@ -41,8 +41,15 @@
             </div>
           </li>
           <li class="checkmark mb-6">
-            <div>Design Thinking</div>
-            <div class="text-lg text-gray-600">Simply put: <i>rapid, strategic iterations lead to better product development</i>. Inspired by <a href="https://dschool.stanford.edu/">The Stanford d.school</a>, my work is framed by the five stages of Design Thinking. In collaboration with stakeholders, we'll empathize, define, ideate, prototype, and test product iterations to produce measurable results.</div>
+            <div>Design Thinking & Human-Centered Design</div>
+            <div class="text-lg text-gray-600">Simply put: <strong>in my experience, <i>rapid, strategic iterations lead to better product development</i></strong>. My (continously improving) <a href="https://consultlowtide.ca/design-thinking-for-devs" target="_blank">HCD/Design Thinking practice</a> is inspired by Dan Nessler's <a href="https://uxdesign.cc/how-to-solve-problems-applying-a-uxdesign-designthinking-hcd-or-any-design-process-from-scratch-v2-aa16e2dd550b" title="Dan Nessler's Revised Double Diamond Framework" target="_blank">Revised Double Diamond Framework</a>, the wealth of resources produced by <a href="https://www.ideou.com/blogs/inspiration/what-is-design-thinking" title="IDEO - What is Design Thinking" target="_blank">IDEO</a>, and <a href="https://dschool.stanford.edu/" title="Standford d.school" target="_blank">The Stanford d.school</a>.
+            </div>
+
+            <hr />
+            
+            <div class="text-lg text-gray-600">
+              In collaboration with stakeholders, we'll <strong>empathize, define, ideate, prototype, and test product iterations to produce measurable results.</strong> Feel free to <a href="#contact" title="Contact me!">reach out</a> if you'd like to discuss this further!
+            </div>
           </li>
           <li class="checkmark mb-6">
             <div>Software Development Best Practices</div>
