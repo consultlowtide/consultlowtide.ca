@@ -1,14 +1,15 @@
 ---
-title: 'An exploration in JAMstack: Building consultlowtide.ca'
-path: building-consultlowtide
+title: "An exploration in JAMstack: Building consultlowtide.ca"
+path: "/building-consultlowtide"
 date: 2019-06-21
 summary: A breakdown of how I built consultlowtide.ca using Gridsome. Gridsome is a Vue.js-powered, modern site generator for building the fastest possible websites for any Headless CMS, APIs or Markdown-files. Gridsome makes it easy and fun for developers to create fast, beautiful websites without needing to become a performance expert.
-tags: ['frontend', 'vue', 'JAMstack']
+tags: ["frontend", "vue", "JAMstack"]
 ---
 
 ![background](./images/site-screenshot.png)
 
 ### What is JAMstack?
+
 JavaScript, API & Markup. Per CEO & Co-founder of [Netlify](https://www.netlify.com) Mathias Biilmann:
 
 > "[JAMstack is] a modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup."
@@ -18,7 +19,7 @@ JavaScript, API & Markup. Per CEO & Co-founder of [Netlify](https://www.netlify.
 Dynamic functionality is handled by JavaScript. There are no restrictions to which framework or libraries are available. In the case of this site, I've opted for [Gridsome](https://gridsome.org/).
 
 - It's lightning fast and highly performant.
-- Has a great developer experience built around [Vue](https://vuejs.org/) and [GraphQL](https://graphql.org/). 
+- Has a great developer experience built around [Vue](https://vuejs.org/) and [GraphQL](https://graphql.org/).
 - Allows for easy (and free!) deployments and hosting through [GitHub Pages](https://pages.github.com/).
 
 #### APIs
