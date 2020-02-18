@@ -2,7 +2,7 @@
   <Layout>
     <g-image
       class="fw-image-option"
-      src="../../static/red-team/option3.jpg"
+      src="../../static/red-team-option3.png"
       alt="red team option 3"
     />
   </Layout>
