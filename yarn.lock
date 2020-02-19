@@ -9206,7 +9206,7 @@ vm-browserify@^1.0.1:
   version "4.0.1"
   resolved "https://github.com/octref/vscode-textmate#e65aabe2227febda7beaad31dd0fca1228c5ddf3"
 
-vue-fuse@^2.1.0:
+vue-fuse@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/vue-fuse/-/vue-fuse-2.2.0.tgz#b58b7197d2c92acb241b0c3263be56e3a80d7c94"
   integrity sha512-mJmmRup0D7xm8nbqgteOu9Gpg6yKcBACs1peD7yGhnMztCEdeEpD/D7W4wvMa9UFogZnESI5vunxlZzgDY9/hA==
