@@ -16,6 +16,9 @@ module.exports = {
   siteDescription:
     "Modern JavaScript Development, Design Thinking, Technology Coaching, and Consulting",
   siteUrl: "https://consultlowtide.ca",
+  chainWebpack(config) {
+    config.mode("development");
+  },
   plugins: [
     {
       use: "@gridsome/source-filesystem",
