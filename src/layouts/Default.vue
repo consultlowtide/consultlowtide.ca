@@ -42,7 +42,7 @@
           :class="isOpen ? 'block' : 'hidden'"
         >
           <li class="mr-8 mb-6 lg:mb-0">
-            <search-input />
+            <!-- <search-input /> -->
           </li>
           <li class="mr-8 mb-6 lg:mb-0">
             <a
@@ -238,12 +238,12 @@ query {
 </static-query>
 
 <script>
-import SearchInput from "../components/SearchInput";
+// import SearchInput from "../components/SearchInput";
 import ThemeSwitcher from "../components/ThemeSwitcher";
 
 export default {
   components: {
-    SearchInput,
+    // SearchInput,
     ThemeSwitcher
   },
   mounted() {
